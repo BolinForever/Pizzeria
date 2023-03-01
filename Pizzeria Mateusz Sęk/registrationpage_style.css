@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(252,217,57);
+    background: linear-gradient(90deg, rgba(252,217,57,1) 0%, rgba(91,204,86,1) 48%, rgba(231,47,47,1) 100%);
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#registration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+::placeholder {
+    text-align: center;
+}
